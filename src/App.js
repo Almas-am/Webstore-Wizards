@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import './App.css';
+import CourseCard from './components/coursecard';
 
 
 import {
