@@ -40,7 +40,7 @@ function App() {
     setTimeout(()=>{
       setAlert(null);
     },3000);
-
+  
   }
 
   const loadScript = (src) => {
@@ -63,11 +63,6 @@ function App() {
   useEffect(() =>{
     loadScript("https://checkout.razorpay.com/v1/checkout.js")
   })
-  return (
-      <section className='card-list'>
-        <CourseCard/>
-      </section>
-  );
   
   return (
     <>
@@ -97,6 +92,10 @@ function App() {
       </Router>
       
     </OrderState>
+
+    <section className='card-list'>
+        <CourseCard/>
+    </section>
     </>
   );
   }
