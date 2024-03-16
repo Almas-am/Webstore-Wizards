@@ -10,7 +10,7 @@ export default async function displayRazorpay() {
     // options
 
     const options = {
-        key: "rzp_test_qCJ5iLJR3gBP3X",
+        key: "rzp_test_ATIDqpJJTUeTEw",
         currency: data.currency,
         amount: data.amount,
         description: 'Wallet Transaction',
