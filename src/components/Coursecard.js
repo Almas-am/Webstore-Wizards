@@ -1,5 +1,6 @@
 import React from 'react'
 import displayRazorpay from '../utils/PaymentGateway';
+import CourseCard from './components/CourseCard';
 
 function CourseCard() {
     return (
